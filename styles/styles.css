@@ -728,7 +728,7 @@ h2 {
 @media (max-width: 767px) {
   .block__info {
     gap: 17px;
-    padding-inline: 1px;
+    padding-inline: 10px;
     display: flex;
     align-items: center;
     text-align: center;
