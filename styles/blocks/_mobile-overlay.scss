@@ -1,11 +1,12 @@
 .mobile-overlay {
   position: fixed;
   z-index: 100;
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin: 0;
   border: none;
   background-color: var(--color-light);
+  animation: Wrapper 0.6s;
 
   &:modal {
     max-width: 100%;
@@ -21,32 +22,6 @@
     font-size: 15px;
   }
 
-  &__close-button {
-    border: none;
-    background: transparent;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    padding-inline: 15px;
-
-    hr {
-      position: absolute;
-      top: 20.5px;
-      width: 18px;
-      height: 1.5px;
-      background: var(--color-oranje);
-      border: none;
-      border-radius: 15px;
-
-
-    }
-    hr:first-child {
-      rotate: 45deg;
-    }
-    hr:last-child {
-      rotate:-45deg;
-    }
-  }
 }
 
 .menu-overlay__link {
@@ -72,3 +47,13 @@ dialog:focus-within {
   outline: none;
 }
 
+@keyframes Wrapper {
+0% {
+transform: translateX(300px);
+  opacity: 0;
+}
+  100% {
+    transform: translateX(-1px);
+    opacity: 1;
+  }
+}

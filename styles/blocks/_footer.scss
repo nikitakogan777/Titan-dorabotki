@@ -1,14 +1,14 @@
 .footer {
   max-width: 100vw;
 
-  padding-top: 300px;
+  padding-top: 250px;
 
   @include tablet {
-    padding-top: 180px;
+    padding-top: 150px;
   }
 
   @include mobile {
-    padding-top: 130px;
+    padding-top: 100px;
   }
 
   &__block {

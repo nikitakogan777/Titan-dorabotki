@@ -47,6 +47,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   openButton.addEventListener("click", openMenu);
   dialog.addEventListener("click", closeMenu);
-  closeButton.addEventListener("click", closeButton);
 });
 

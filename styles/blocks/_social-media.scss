@@ -1,5 +1,11 @@
 .social {
 
+  padding-top: 100px;
+
+  @include tablet {
+    padding-top: 30px;
+  }
+
   &__body {
     overflow-x: hidden;
     opacity: 0;
@@ -8,10 +14,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    }
 
   &__title {
     text-align: center;
+
+    @include mobile {
+      padding-top: 20px;
+    }
 
 
     &::after {
