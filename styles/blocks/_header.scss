@@ -1,8 +1,6 @@
 .header {
-  padding-top: 50px;
 
-  &__title {
-  }
+  padding-top: 50px;
 
   @include desktop {
     padding-top: 25px;
@@ -114,5 +112,5 @@
 }
 
 .attainment {
-  padding: 0px;
+  padding: 0;
 }
