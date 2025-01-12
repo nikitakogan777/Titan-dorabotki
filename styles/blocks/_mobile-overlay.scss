@@ -3,10 +3,11 @@
   z-index: 100;
   width: 75%;
   height: 100%;
-  margin: 0;
+  margin: 0 0 0 auto;
   border: none;
   background-color: var(--color-light);
-  animation: Wrapper 0.6s;
+  animation: Wrapper 0.5s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
   &:modal {
     max-width: 100%;
@@ -16,7 +17,8 @@
   &__list {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+    margin-left: 20px;
     margin-top: 50%;
     gap: 35px;
     font-size: 15px;
@@ -27,27 +29,9 @@
 
 .menu-overlay__link {
   border-bottom: 1px solid #cdcccc;
-  padding: 10px;
+  padding: 0 30px 5px 0;
+  width: 115px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  outline: none;
-}
-
-button.mobile-overlay__close-button:focus,
-button.mobile-overlay__close-button:focus-visible {
-  outline: none;
-}
-
-button:focus {
-  outline: none;
-  -webkit-tap-highlight-color: transparent;
-}
-button:focus,
-button:active {
-  outline: none;
-  user-select: none;
-}
-
-dialog:focus-within {
   outline: none;
 }
 

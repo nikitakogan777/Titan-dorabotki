@@ -1,5 +1,14 @@
 body {
 
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+a {
+
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+
+}
+
   button {
     -webkit-tap-highlight-color: transparent;
   }
