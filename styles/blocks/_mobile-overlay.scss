@@ -1,7 +1,7 @@
 .mobile-overlay {
   position: fixed;
   z-index: 100;
-  width: 80%;
+  width: 75%;
   height: 100%;
   margin: 0;
   border: none;
@@ -20,12 +20,16 @@
     margin-top: 50%;
     gap: 35px;
     font-size: 15px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
   }
-
 }
 
 .menu-overlay__link {
+  border-bottom: 1px solid #cdcccc;
   padding: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
 }
 
 button.mobile-overlay__close-button:focus,
@@ -53,7 +57,7 @@ transform: translateX(300px);
   opacity: 0;
 }
   100% {
-    transform: translateX(-1px);
+    transform: translateX(0px);
     opacity: 1;
   }
 }
