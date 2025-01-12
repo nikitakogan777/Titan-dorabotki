@@ -2,9 +2,6 @@
   padding-top: 50px;
 
   &__title {
-    @include tablet {
-      font-size: 20px;
-    }
   }
 
   @include desktop {

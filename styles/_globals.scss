@@ -13,7 +13,7 @@ a {
     -webkit-tap-highlight-color: transparent;
   }
 
-  @include fluid-text(22, 13);
+  @include fluid-text(22, 15);
   font-weight: 400;
 
   font-family: var(--font-family-base);
@@ -34,10 +34,10 @@ a {
 }
 
 h1 {
-  @include fluid-text(30, 20);
+  @include fluid-text(30, 22);
   font-weight: 400;
 }
 h2 {
-  @include fluid-text(24, 16);
+  @include fluid-text(24, 18);
   font-weight: 400;
 }
