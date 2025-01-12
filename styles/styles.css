@@ -211,7 +211,7 @@ button {
 body {
   outline: none;
   -webkit-tap-highlight-color: transparent;
-  font-size: clamp(15px, 1.5277777778vw, 22px);
+  font-size: clamp(16px, 1.5277777778vw, 22px);
   font-weight: 400;
   font-weight: 400;
   font-family: var(--font-family-base);
@@ -486,12 +486,12 @@ h2 {
 }
 @media (max-width: 1023px) {
   .social .images__icon {
-    transform: scale(0.5);
+    transform: scale(0.6);
   }
 }
 @media (max-width: 767px) {
   .social .images__icon {
-    transform: scale(0.4);
+    transform: scale(0.5);
     padding-top: 100px;
     gap: 350px;
   }
@@ -883,6 +883,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 .title::after {
   content: "";
