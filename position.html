@@ -11,6 +11,41 @@
     <title>titansportclub</title>
 </head>
 <body>
+<header class="header">
+    <div class="header__inner container">
+        <h1 class="header__title">
+            <a href="./index.html" class="header__title-link"
+            >Титан<br />
+                Спортивный клуб</a
+            >
+        </h1>
+        <div class="content header__content">
+            <nav class="header__menu hidden__mobile">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="./position.html" class="header__menu__link">Наставники</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="./mentoring.html" class="header__menu__link">Положение</a>
+                    </li>
+                    <li class="header__menu-item header__menu-dropdown">
+                        <div class="dropdown">
+                            <button href="./about.html" class="header__menu__link drop__button">О клубе</button>
+                            <div class="dropdown__content">
+                                <a href="./about.html" class="regulatory">История</a>
+                                <a href="#" class="attainment ">Достижения</a>
+                                <a href="#" class="regulatory">НПА</a>
+                            </div>
+                            <img src="./images/arrow.svg" alt="" class="dropdown__arrow" />
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <button id="openMenuButton" class="burger"></button>
+    </div>
+</header>
+
 <main class="main">
     <div class="mentoring section">
         <div class="mentoring__body">
@@ -21,6 +56,28 @@
             </div>
         </div>
     </div>
+
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+        <div class="mobile-overlay__body">
+            <ul class="mobile-overlay__list">
+                <li class="menu-overlay__item">
+                    <a href="./position.html" class="menu-overlay__link  box-size">Наставники</a>
+                </li>
+                <li class="menu-overlay__item">
+                    <a href="./mentoring.html" class="menu-overlay__link box-size">Положение</a>
+                </li>
+                <li class="menu-overlay__item">
+                    <a href="#" class="menu-overlay__link box-size">Достижения</a>
+                </li>
+                <li class="menu-overlay__item">
+                    <a href="./about.html" class="menu-overlay__link">О клубе</a>
+                </li>
+                <li class="menu-overlay__item">
+                    <a href="#" class="menu-overlay__link">НПА</a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
 </main>
 <footer class="footer">
     <div class="footer__container">

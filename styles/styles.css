@@ -656,7 +656,7 @@ h2 {
 }
 
 .menu-overlay__link {
-  border-bottom: 1px solid #cdcccc;
+  border-bottom: 1px solid var(--color-oranje);
   padding: 0 30px 5px 0;
   width: 115px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -908,6 +908,17 @@ footer {
     margin: 10px auto 0;
     height: 1px;
     border-radius: 5px;
+  }
+}
+
+.main {
+  padding-top: 90px;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .main {
+    padding-top: 30px;
+    margin: 0;
   }
 }
 
